@@ -1,0 +1,58 @@
+// Arithmatic operations
+
+let x
+
+// Addition and subtraction
+x = 5 + 5
+x = 5 - 5
+// Multiplication and division
+x = 5 * 5
+x = 5 / 5
+// Modulis 
+x = 7 % 5
+
+// Concatenation
+y = "Hello" + " " + "World"
+// returns "Hello World"
+
+// Exponentiation
+x = 2 ** 3
+// returns 8
+
+// Increment and decrement
+x = x + 1 // returns 2
+// or 
+x++ //reurns 2
+
+x = x - 1 // returns 1
+x-- // returns 1 
+
+// Assignment
+
+x += 5 // same as 'x = x + 5'
+x -= 5 // same as 'x = x - 5'
+x *= 5 // same as 'x = x * 5'
+x /= 5 // same as 'x = x / 5'
+x %= 5 // same as 'x = x % 5'
+x **= 5 // same as 'x = x ** 5'
+
+// Comparison operators
+// == evaluets the values
+x = 2 == 5 // same as 'x = 2 and x = 5' returns false
+x = 2 == '2' // same as 'x = 2 and x = 2' returns true
+
+// === evaluets the values and the type
+x = 2 === 2 // returns true
+x = 2 === '2' // returns false
+
+// Not Equals
+x = 5 != 5 // returns false
+x = 5 != 2 // returns true
+
+x = 5 !== '5' // returns true because the type are not equal
+
+10 > 5 // returns true 
+10 < 5 // returns false
+10 <= 5 
+10 >= 5 
+
